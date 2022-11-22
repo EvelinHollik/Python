@@ -1,0 +1,4 @@
+3 == 3 --> 3 egyenlő 3-mal
+3 != 3 --> 3 nem egyenlő 3-mal
+3 >= 4 --> 3 nagyobb vagy egyenlő 4-gyel
+not (3 < 4) --> 3 nem kisebb 4-gyel
