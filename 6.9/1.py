@@ -36,7 +36,7 @@ class teszt:
         if nap_nev >= "7":
             print("None")
  
-teszt.nap_nev()
+teszt.nap_nev(7)
 
 #3
 class teszt:
@@ -57,4 +57,4 @@ class teszt:
         if nap_nev == "Vasárnap":
             print("6")
 
-teszt.nap_nev()
+teszt.nap_nev(7)
