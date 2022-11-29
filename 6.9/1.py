@@ -1,16 +1,15 @@
-egtaj=("É", "K", "D", "NY")
-kovetkezo=""
+class teszt:
+    def irany(irany):
+        if irany == "é" and "É":
+            print("Kelet")
+        elif irany == "k" and "K":
+            print("Dél")
+        elif irany == "d" and "D":
+            print("NYugat")
+        elif irany == "ny" and "NY":
+            print("Észak")
+        else:
+            print("none")
+        return irany
 
-def fordulj_orajarasi_iranyba(egtaj):
-    if egtaj =="É":
-        kovetekezo="Kelet"
-    elif egtaj == "K":
-        kovetkezo ="Dél"
-    elif egtaj == "D":
-        kovetkezo ="Nyugat"
-    elif egtaj == "NY":
-        kovetkezo ="Észak"
-    print("Add meg az égtájat:")
-
-fordulj_orajarasi_iranyba()
-    
+teszt.irany("é")
