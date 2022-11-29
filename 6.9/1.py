@@ -12,7 +12,6 @@ class teszt:
         else:
             print("none")
         return irany
-
 teszt.irany("é")
 
 #2
@@ -35,7 +34,6 @@ class teszt:
             print("Vasárnap")
         if nap_nev >= "7":
             print("None")
- 
 teszt.nap_nev(7)
 
 #3
@@ -56,5 +54,4 @@ class teszt:
             print("5")
         if nap_nev == "Vasárnap":
             print("6")
-
 teszt.nap_nev(7)
