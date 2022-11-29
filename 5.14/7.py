@@ -1,5 +1,6 @@
 import turtle
-Eszti = turtle.Turtle()
+screen = turtle.Turtle()
+t=turtle.Turtle()
 
 def rajzolj_oszlopot(t, magassag):
     t.begin_fill()
@@ -29,4 +30,4 @@ for m in xs:
     rajzolj_oszlopot(Eszti, m)
 
 
-ablak.mainloop()
+screen.mainloop()
