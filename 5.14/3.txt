@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 a < b
 a <= b
 a <= 18 or nap == 3
+=======
+a < b
+a <= b
+a <= 18 or nap == 3
+>>>>>>> 2865ab6c45bd11627e8dbd0bbf1934f15233d767
 a <= 18 or nap != 3

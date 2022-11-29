@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 3 == 3 --> 3 egyenlő 3-mal
 3 != 3 --> 3 nem egyenlő 3-mal
 3 >= 4 --> 3 nagyobb vagy egyenlő 4-gyel
+=======
+3 == 3 --> 3 egyenlő 3-mal
+3 != 3 --> 3 nem egyenlő 3-mal
+3 >= 4 --> 3 nagyobb vagy egyenlő 4-gyel
+>>>>>>> 2865ab6c45bd11627e8dbd0bbf1934f15233d767
 not (3 < 4) --> 3 nem kisebb 4-gyel
