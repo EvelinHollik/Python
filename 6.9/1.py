@@ -186,4 +186,34 @@
 # print(meredekseg(2, 4, 2, 5))
 
 #14
+# def paros_e(n):
+#     if n % 2 == 0:
+#         return True
+#     else:
+#         return False
 
+# n= int(input("Adj meg egy számot: "))
+# print (paros_e(n))
+
+#15
+# def paratlan_e(n):
+#     if n % 2 == 0:
+#         return False
+#     else:
+#         return True
+
+# n= int(input("Adj meg egy számot: "))
+# print (paratlan_e(n))
+
+#16
+# def tenyezo_e(t, n):
+#     if n % t == 0:
+#         print(tenyezo_e)
+#     else:
+#         print ("not", tenyezo_e)
+    
+# t=int(input("adj meg egy számot "))
+# n=int(input("adj meg egy számot "))
+# print (tenyezo_e(t, n))
+
+#17
