@@ -132,7 +132,7 @@
 #masodpercre_valtas()
 
 #8
-#def masodpercre_valtas():
+#def masodpercre_valtas2():
 #    ora =float(input("Add meg az órát: "))
 #    perc =float(input("Add meg az percet: "))
 #    masodperc =float(input("Add meg az másodpercet: "))
@@ -140,15 +140,50 @@
 #    perck= perc * 60
 #    masodpercek = orak + perck + masodperc
 #    print(int(ora), "óra +", int(perc), "perc +", int(masodperc), "másodperc =", int(masodpercek), "másodperc")
-#masodpercre_valtas()
+#masodpercre_valtas2()
 
-#9,a
-def orara_valtas():
-    masodperc = int(input("Add meg az másodpercet: "))
-    ora = orak
-    perc = perck
-    perck= perc / 60
-    masodpercek = masodperc / 3600
-    orak= masodpercek + perck + orak
-    print(int(ora), "óra +", int(perc), "perc +", int(masodperc), "másodperc =", int(orak))
-orara_valtas()
+#9
+#def orara_valtas():
+#    masodperc = int(input("másodperc: "))
+#    ora = masodperc/3600
+#    orak = masodperc%3600
+#    perc = orak/60
+#    perk = orak%60
+#    masodpercek = perk
+#    print(int(ora)," óra",int(perc),"perc",masodpercek,"másodperc")
+#orara_valtas()
+
+#10
+
+
+#11
+# def osszehasonlitas():
+#     a=int(input("Adj meg egy számot: "))
+#     b=int(input("Adj meg egy számot: "))
+
+#     if a > b:
+#         print ("1")
+#     elif a == b:
+#         print("0")
+#     elif a < b:
+#         print("-1")
+# osszehasonlitas()
+
+#12
+# def atfogo(befog, befo):
+#     return ((befog*befog)+(befo*befo))**0.5
+
+# print(atfogo(12,5))
+
+#13
+# def meredekseg(x1, y1, x2, y2):
+#     return (x1, y1)/(x2, y2)
+
+# print(meredekseg(5, 3, 4, 2))
+# print(meredekseg(1, 2, 3, 2))
+# print(meredekseg(1, 2, 3, 3))
+# print(meredekseg(2, 4, 1, 2))
+# print(meredekseg(2, 4, 2, 5))
+
+#14
+
