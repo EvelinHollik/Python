@@ -217,3 +217,14 @@
 # print (tenyezo_e(t, n))
 
 #17
+# def tobbszorose_e():
+#     if n % t == 0:
+#         print(tobbszorose_e)
+#     else:
+#         print ("not", tobbszorose_e)
+    
+# t=int(input("adj meg egy számot "))
+# n=int(input("adj meg egy számot "))
+# print (tobbszorose_e(t, n))
+
+#18
