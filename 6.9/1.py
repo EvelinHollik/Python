@@ -170,61 +170,65 @@
 # osszehasonlitas()
 
 #12
-# def atfogo(befog, befo):
-#     return ((befog*befog)+(befo*befo))**0.5
-
-# print(atfogo(12,5))
+#class teszt4:
+#    def atfogo():
+#        bef1 = int(input("1. befogó: "))
+#        bef2 = int(input("2. befogó: "))
+#        atfogo = ((bef1*bef1)+(bef2*bef2)) ** 0.5
+#        print(atfogo)
+#print(teszt4.atfogo())
 
 #13
-# def meredekseg(x1, y1, x2, y2):
-#     return (x1, y1)/(x2, y2)
-
-# print(meredekseg(5, 3, 4, 2))
-# print(meredekseg(1, 2, 3, 2))
-# print(meredekseg(1, 2, 3, 3))
-# print(meredekseg(2, 4, 1, 2))
-# print(meredekseg(2, 4, 2, 5))
+#class teszt5:
+#    def meredekseg(x1,y1,x2,y2):
+#        return (y1-y2)/(x1-x2)
+#        print(meredekseg(5,3,4,2))
+#        print(meredekseg(1,2,3,2))
+#        print(meredekseg(1,2,3,3))
+#        print(meredekseg(2,4,1,2))
+#        print(meredekseg(1,6,3,12))
+#teszt5.meredekseg()
 
 #14
-# def paros_e(n):
-#     if n % 2 == 0:
-#         return True
-#     else:
-#         return False
-
-# n= int(input("Adj meg egy számot: "))
-# print (paros_e(n))
+#class teszt6:
+#    def paros_e(n):
+#        if n%2 == 0: return True
+#        else: return False
+#print(teszt6.paros_e())
 
 #15
-# def paratlan_e(n):
-#     if n % 2 == 0:
-#         return False
-#     else:
-#         return True
-
-# n= int(input("Adj meg egy számot: "))
-# print (paratlan_e(n))
+#class teszt7:
+#    def paratlan_e(n):
+#        if n%2 !=0:
+#            return True
+#        else:
+#            return False
+#print(teszt7.paratlan_e())
 
 #16
-# def tenyezo_e(t, n):
-#     if n % t == 0:
-#         print(tenyezo_e)
-#     else:
-#         print ("not", tenyezo_e)
-    
-# t=int(input("adj meg egy számot "))
-# n=int(input("adj meg egy számot "))
-# print (tenyezo_e(t, n))
+#class teszt8:
+#    def tenyezo_e(t, n):
+#        if n%t==0: return True
+#        else: return False
+#print(teszt8.tenyezo_e())
 
 #17
-# def tobbszorose_e():
-#     if n % t == 0:
-#         print(tobbszorose_e)
-#     else:
-#         print ("not", tobbszorose_e)
-    
-# t=int(input("adj meg egy számot "))
-# n=int(input("adj meg egy számot "))
-# print (tobbszorose_e(t, n))
+#class teszt9:
+#    def tobbszorose_e(t, n):
+#        if t%n==0:
+#            return True
+#        else:
+#            return False
+#print(teszt9.tobbszorose_e())
 
 #18
+#class teszt10:
+#    def celsiusra_valtas(f):
+#        return int(((f-32)/9)*5)
+#print(teszt10.celsiusra_valtas)
+
+#19
+#class teszt11:
+#    def Fahrenheit_valtas(c):
+#        return int(((c/5)*9)+32)
+#print(teszt11.Fahrenheit_valtas)
